@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Arkhip;
+    src: url("Assets/Arkhip_font.otf");
+}
+
+@font-face {
+    font-family: Sofia;
+    src: url("Assets/Sofia_Regular.otf");
+}
+
+@font-face {
+    font-family: Kaiti;
+    src: url("Assets/AdobeKaitiStd-Regular.otf");
+}
+
+.bg {
+    background-image: url("Assets/Japan.jpeg");
+    background-size: cover;
+    transition: all 1s ease-in-out;
+}
+
+.bgCover {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#Japanese {
+    color: white;
+    font-size: 5vh;
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    transition: all 1s ease-in-out;
+}
+
+#English {
+    position: absolute;
+    font-size: 20vh;
+    top: 35%;
+    left: 30%;
+    color: white;
+    font-family: Arkhip;
+    transition: all 1s ease-in-out;
+}
+
+.navBar {
+    color: white;
+    text-transform: uppercase;
+    margin-left: 100px;
+    font-family: Sofia;
+    margin-top: 25px;
+}
+
+.navBar span {
+    margin: 20px;
+}
+
+#b4 {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 50px;
+    width: 100px;
+}
+
+#b4 input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+#b4 input::placeholder {
+    color: white;
+    font-family: Sofia;
+}
+
+#b5 {
+    color: white;
+    background: #f9002f;
+    font-family: Sofia;
+    margin-left: 700px;
+    padding: 10px;
+    margin-top: 35px;
+    border-radius: 6px;
+    width: 75px;
+}
+
+#b1,
+#b2,
+#b3,
+#b5 {
+    cursor: pointer;
+}
+
+
+.bottomBar {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    color: white;
+    font-family: Kaiti;
+    justify-content: space-evenly;
+}
+
+#tokCir img,
+#kyoCir img,
+#osaCir img,
+#narCir img {
+    border-radius: 50%;
+    border: 3px solid #f9002f;
+    transition: all 1s ease-in-out;
+}
+
+#tokCir {
+    margin-left: 8vw;
+}
+
+#kyoCir,
+#osaCir,
+#narCir {
+    margin-left: 20vw;
+}
+
+#subTxt {
+    margin-left: 10px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 40px;
+    width: 200px;
+    text-transform: uppercase;
+}
+
+#mainTxt {
+    margin-left: 10px;
+    position: absolute;
+    bottom: 10px;
+    font-weight: bold;
+}
